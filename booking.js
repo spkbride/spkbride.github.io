@@ -2,16 +2,15 @@
       function sendEmail() {
         Email.send({
           Host: "smtp.gmail.com",
-        Username: "jayavel2838@gmail.com",
-        Password: "zrrh pxgx mfdh krtr",
+        Username: "spkbride@gmail.com",
+        Password: "lsfn mxvm azfm auuk",
             SecureToken: "security token of your smtp",
-            To: "jayavelbrightbridge@gmail.com",
-            From: "jayavel2838@gmail.com",
-            Body: "SPK BRIDE BOOKING MESSAGE" + "<br/>" + "Customer Name:&nbsp;&nbsp;" + document.getElementById('name').value + "<br/>" + "customer number:&nbsp;&nbsp;" + document.getElementById('number').value + "<br/>" +  "Customer Choice:&nbsp;&nbsp;" + document.getElementById('spk').value + "<br/>" + "Customer Message:&nbsp;&nbsp;" + document.getElementById('message').value,
+            To: "parumaniyan@gmail.com",
+            From: "spkbride@gmail.com",
+            Body: "SPK BRIDE BOOKING MESSAGE" + "<br/>" + "Customer Name:&nbsp;&nbsp;" + document.getElementById('name').value + "<br/>" + "customer number:&nbsp;&nbsp;" + document.getElementById('number').value + "<br/>" +  "Customer Choice:&nbsp;&nbsp;" + document.getElementById('spk').value + "<br/>" + "Customer Message:&nbsp;&nbsp;" + document.getElementById('message').value + "<br/><br/><br/>" +"Visit Our Site :https://spkbride.github.io",
             Subject: document.getElementById('name').value
             
         }).then( 
-            message => alert("mail sent successfully")
+            message => alert("Message Send Successfully")
         );
     }
-
